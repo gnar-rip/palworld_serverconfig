@@ -26,12 +26,12 @@ Once your server has been ran once, you can shut it down and configure your opti
 
 IF YOU GET AN ERROR WHEN STARTING THE SERVER:
 
-.steam/sdk64/steamclient.so: cannot open shared object file: No such file or directory
+1. .steam/sdk64/steamclient.so: cannot open shared object file: No such file or directory
     - mkdir -p ~/.steam/sdk64/
     - steamcmd +login anonymous +app_update 1007 +quit
     - cd ~/.steam/SteamApps/common/'Steamworks SDK Redist'/linux64/ (This is how it formatted the directory on my linux, it may look different for you. It is in the common directory tho, you  will see it)
     - cp steamclient.so ~/.steam/sdk64 (You NEED to use the one from the linux64 folder, if you dont you will get a different error I will list below.)
     - Start your server
 
-/home/palworldserver/.steam/sdk64/steamclient.so: wrong ELF class: ELFCLASS32
+2. /home/palworldserver/.steam/sdk64/steamclient.so: wrong ELF class: ELFCLASS32
     - Please refer to the first error, step 4.

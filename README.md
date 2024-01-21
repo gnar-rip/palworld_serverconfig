@@ -35,3 +35,13 @@ IF YOU GET AN ERROR WHEN STARTING THE SERVER:
 
 2. /home/palworldserver/.steam/sdk64/steamclient.so: wrong ELF class: ELFCLASS32
     - Please refer to the first error, step 4.
+  
+Admin Commands -
+  - In game, press enter and type /adminpassword PASSWORD in the chat box. This will give you admin.
+
+RCON Access:
+  - Edit the PalServerSettings.ini file, and locate these two lines:
+    - RCONEnabled=False,
+      RCONPort=25575
+  - Change False to True, and set the port to whatever port you want to use for RCON (Make sure to open this port through port forwarding!)
+  - Nodecraft developed a RCON console here: https://adminpal.gg/

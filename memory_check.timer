@@ -1,0 +1,8 @@
+[Unit]
+Description=Memory Check Timer
+
+[Timer]
+OnCalender=*-*-* *:0/3:00:00
+
+[Install]
+WantedBy=timers.targer

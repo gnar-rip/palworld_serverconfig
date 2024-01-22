@@ -1,0 +1,5 @@
+[Unit]
+Description=Memory Check for PalWorld Server
+
+[Service]
+ExecStart=/home/palserver/.steam/SteamApps/common/PalServer/check_memory.sh

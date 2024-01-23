@@ -45,3 +45,7 @@ RCON Access:
       RCONPort=25575
   - Change False to True, and set the port to whatever port you want to use for RCON (Make sure to open this port through port forwarding!)
   - Nodecraft developed a RCON console here: https://adminpal.gg/
+
+
+Memory Checker Service -
+  - Im lazy and dont want to write a full install thing, so only mess with this if you know what youre doin. Put the service and the timer where they need to go, and put the check_memory.sh in your server root. You can run check_memory.sh manuall without using the service/timer. The timer is set to restart the server every 3 hours currently, if you open the timer with nano or another editor you can just change the 3 to whatever number suits you.

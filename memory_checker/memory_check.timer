@@ -5,4 +5,4 @@ Description=Memory Check Timer
 OnCalender=*-*-* *:0/3:00:00
 
 [Install]
-WantedBy=timers.targer
+WantedBy=timers.target

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Replace 'your_process_name' with the actual process name
-PROCESS_NAME="/home/palserver/.steam/SteamApps/common/PalServer/Pal/Binaries/Linux/PalServer-Linux-Tes>"
-THRESHOLD_MB=14336   # Set your desired threshold in megabytes
+PROCESS_NAME="/home/palserver/.steam/SteamApps/common/PalServer/Pal/Binaries/Linux/PalServer-Linux-Tes>
+THRESHOLD_MB=12288   # Set your desired threshold in megabytes
 START_SCRIPT="/home/palserver/.steam/SteamApps/common/PalServer/PalServer.sh"
 
 # Use pgrep with -f to match against the entire command line
